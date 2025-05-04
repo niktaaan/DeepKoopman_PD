@@ -33,3 +33,23 @@ deep-kooopman-eeg-gvs/
 ├── CITATION.cff          # Citation metadata
 ├── LICENSE
 └── README.md             # You're here!
+
+🚀 Getting Started
+
+(Installation, setup, environment — start this section here)
+
+---
+
+📊 Reproducing Results
+
+(Outline which notebooks/scripts to run and how)
+
+---
+
+📎 Citation
+
+(Add citation instructions)
+
+---
+
+
