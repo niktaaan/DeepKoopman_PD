@@ -5,8 +5,9 @@ This repository contains the code, data samples, and experiments for our paper:
 
 > **Title:** _Linearized Koopman Embeddings Reveal EEG Effects of Galvanic Vestibular Stimulation During Motor Preparation in Parkinson's Disease_  
 > **Authors:** Maryam Kia, Maryam S. Mirian, Saeed Soori, Saeed Saedi, Emad Arasteh, Mohamad Hosein Faramarzi, Abhijit Chinchani, Soojin Lee, Artur Luczak, Martin J. McKeown*
+> 
 > **Affiliation:** UBC Pacific Parkinson’s Research Centre  
-> **Preprint/Paper:** [link-to-arxiv-or-journal]
+> **Preprint/Paper:** [[link-to-arxiv-or-journal](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1566566/abstract)] 
 
 ---
 
