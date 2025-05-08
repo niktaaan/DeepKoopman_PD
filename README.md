@@ -14,7 +14,7 @@ This repository contains the code, data samples, and experiments for our paper:
 ## 🧠 Overview
 
 This study applies a Deep Koopman Operator Learning framework to EEG recordings from Parkinson’s patients and healthy controls, with and without galvanic vestibular stimulation (GVS). Our method captures both spatial and temporal dynamics in a latent linear space, allowing interpretable analysis of non-invasive brain stimulation effects.
-![image](https://github.com/user-attachments/assets/f54b794f-69d4-40b0-bd72-e3c7ae495acd)
+![Figure1](https://github.com/user-attachments/assets/aa75f129-d49a-4b9e-a5d7-3923587a8668)
 
 ---
 
