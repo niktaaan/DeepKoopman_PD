@@ -3,7 +3,7 @@ Code for the paper : " Koopman-Based Linearization of Preparatory EEG Dynamics i
 
 This repository contains the code, data samples, and experiments for our paper:
 
-> **Title:** _Linearized Koopman Embeddings Reveal EEG Effects of Galvanic Vestibular Stimulation During Motor Preparation in Parkinson's Disease_  
+> **Title:** _Koopman-Based Linearization of Preparatory EEG Dynamics in Parkinson’s Disease During Galvanic Vestibular Stimulation_  
 > **Authors:** Maryam Kia, Maryam S. Mirian, Saeed Soori, Saeed Saedi, Emad Arasteh, Mohamad Hosein Faramarzi, Abhijit Chinchani, Soojin Lee, Artur Luczak, Martin J. McKeown*
 > 
 > **Affiliation:** UBC Pacific Parkinson’s Research Centre  
