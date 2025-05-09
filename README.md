@@ -23,24 +23,34 @@ This study applies a Deep Koopman Operator Learning framework to EEG recordings 
 ```bash
 deep-kooopman-eeg-gvs/
 │
-├── data/                 # Sample EEG 
-├── src/                  # Source code to train model
-  ├── postprocessing/     # ain postprocessing steps
-├── paper/                # Manuscript and supplementary materials
-├── requirements.txt      # Python dependencies
-├── CITATION.cff          # Citation metadata
-├── LICENSE
-└── README.md             # You're here!
+├── data/                 
+│   └── sample_eeg/             # Example EEG data from HC subjects (train/val/test sets)
+│
+├── src/                  
+│   └── training/               # Core model definition and training pipeline
+│
+├── src/postprocessing/        # Scripts for downstream analysis and figure generation
+│
+├── paper/                     
+│   ├── manuscript.pdf          # Main manuscript 
+│   └── supplementary/          # Supplementary figures, tables, or data 
+│
+├── requirements.txt           # List of Python dependencies (for pip install)
+├── CITATION.cff               # Citation metadata (for Zenodo/GitHub citation integration)
+├── LICENSE                    # License file (e.g. MIT)
+└── README.md                  # You’re here!
 
-🚀 Getting Started
+**What’s Included**
 
-(Installation, setup, environment — start this section here)
+Sample Data:
+A subset of preprocessed EEG recordings from HC subjects, formatted for immediate use. These include separate files for training, validation, and test.
 
----
+Training Code (src/training/):
+Code to define and train the deep Koopman model on EEG data. 
 
-📊 Reproducing Results
 
-(Outline which notebooks/scripts to run and how)
+Postprocessing Scripts (src/postprocessing/):
+Scripts used after training to Apply the Koopman operator to test data, Reconstruct signals and compute prediction errors, Analyze learned latent dynamics, Generate figures for visualization and publication
 
 ---
 
