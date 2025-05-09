@@ -25,7 +25,6 @@ deep-kooopman-eeg-gvs/
 │
 ├── data/                 # Sample EEG and behavioral data
 ├── src/                  # Source code: preprocessing, models, utils
-├── notebooks/            # Jupyter notebooks for reproducing results
 ├── figures/              # Figures from the paper
 ├── results/              # Output trajectories, spatial maps, statistics
 ├── paper/                # Manuscript and supplementary materials
