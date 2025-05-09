@@ -23,12 +23,10 @@ This study applies a Deep Koopman Operator Learning framework to EEG recordings 
 ```bash
 deep-kooopman-eeg-gvs/
 │
-├── data/                 # Sample EEG and behavioral data
-├── src/                  # Source code: preprocessing, models, utils
-├── figures/              # Figures from the paper
-├── results/              # Output trajectories, spatial maps, statistics
+├── data/                 # Sample EEG 
+├── src/                  # Source code to train model
+  ├── postprocessing/     # ain postprocessing steps
 ├── paper/                # Manuscript and supplementary materials
-├── scripts/              # Scripts to run full pipeline
 ├── requirements.txt      # Python dependencies
 ├── CITATION.cff          # Citation metadata
 ├── LICENSE
