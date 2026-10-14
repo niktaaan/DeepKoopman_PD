@@ -30,3 +30,10 @@ Run the training entry point from the repository root:
 
 ```bash
 python src/ShamHC.py
+```
+
+Experiment settings, including network dimensions, loss weights, and training duration, are defined in `src/ShamHC.py`.
+
+The training code uses TensorFlow graph/session APIs and requires a compatible TensorFlow environment.
+
+Postprocessing scripts require outputs from completed experiments. Update their input paths and experiment identifiers before running them. MATLAB is required for the `.m` scripts.
