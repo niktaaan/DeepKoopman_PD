@@ -118,13 +118,11 @@ ylabel('x3')
 
 
 % Calculate mean squared error (MSE)
-mse = mean(error.^2, 2);
-
+mse = mean(e_array.^2, 2);
 % Calculate mean absolute error (MAE)
-mae = mean(abs(error), 2);
-
+mae = mean(abs(e_array), 2);
 % Calculate maximum absolute error
-max_error = max(abs(error), [], 2);
+max_error = max(abs(e_array), [], 2);
 
 % Display error metrics
 disp('Error Metrics:')
