@@ -34,6 +34,6 @@ python src/ShamHC.py
 
 Experiment settings, including network dimensions, loss weights, and training duration, are defined in `src/ShamHC.py`.
 
-The training code uses TensorFlow graph/session APIs and requires a compatible TensorFlow environment.
+The original training environment used Python 3.6.13, tensorflow-gpu 1.15.0, and NumPy 1.19.5. Python postprocessing additionally requires Matplotlib.
 
 Postprocessing scripts require outputs from completed experiments. Update their input paths and experiment identifiers before running them. MATLAB is required for the `.m` scripts.
